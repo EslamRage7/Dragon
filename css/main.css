@@ -130,6 +130,9 @@ body {
     margin: auto;
     /* height: 450px; */
   }
+  .footer {
+    height: 100% !important;
+  }
 }
 @media (max-width: 568px) {
   .explore .box {
@@ -313,7 +316,6 @@ header .header-title button:hover {
   transition: all, 1s;
   z-index: 990;
   position: relative;
-  text-align: center;
   color: #fff;
   background-image: url(../images/footer.jpg);
   background-size: cover;
