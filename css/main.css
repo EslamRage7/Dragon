@@ -131,7 +131,7 @@ body {
     /* height: 450px; */
   }
   .footer {
-    height: 85vh !important;
+    height: 90vh !important;
   }
 }
 @media (max-width: 568px) {
