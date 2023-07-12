@@ -126,13 +126,16 @@ body {
   }
 }
 @media (max-width: 768px) {
+  header .header-title {
+    margin-top: 180px !important;
+  }
   .explore .box {
     margin: auto;
     /* height: 450px; */
   }
-  .footer {
-    height: 120vh !important;
-  }
+  /* .footer {
+    height: 95vh !important;
+  } */
 }
 @media (max-width: 568px) {
   .explore .box {
@@ -208,7 +211,7 @@ header .header-title {
   color: #f8f9fa;
   z-index: 1254;
   filter: opacity(0.8);
-  margin-top: 250px !important;
+  margin-top: 250px;
 }
 header .header-title h1 {
   font-size: 55px;
@@ -343,17 +346,6 @@ header .header-title button:hover {
 .contact-light-overlay {
   transition: all, 1s;
   height: 100%;
-  background-image: -webkit-radial-gradient(
-    48% 65%,
-    200% 130%,
-    rgba(255, 255, 255, 0.5),
-    rgba(255, 255, 255, 0.6),
-    rgba(255, 255, 255, 0.7),
-    rgba(255, 255, 255, 0.87),
-    rgba(255, 255, 255, 0.99),
-    #fff 55%,
-    #fff 200%
-  );
   background-image: radial-gradient(
     200% 130% at 48% 65%,
     rgba(255, 255, 255, 0.5),
