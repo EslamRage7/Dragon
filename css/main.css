@@ -131,7 +131,7 @@ body {
     /* height: 450px; */
   }
   .footer {
-    height: 95vh !important;
+    height: 120vh !important;
   }
 }
 @media (max-width: 568px) {
@@ -198,10 +198,9 @@ nav .navbar-toggler:focus {
 
 /* start header */
 header {
-  position: relative;
   background-image: url(../images/header.jpg);
-  background: no-repeat cover;
-  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh;
   transition: all, 1s;
 }
@@ -318,6 +317,7 @@ header .header-title button:hover {
   position: relative;
   color: #fff;
   background-image: url(../images/footer.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
   height: 120vh;
   background-position: bottom;
